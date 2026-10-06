@@ -1,0 +1,30 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# Environment / secrets
+.env
+
+# Scraping temporary files
+page.html
+directory.html
+geographic_lookup_cache.json
+
+# Development / testing scripts
+check_pagination.py
+test_source.py
+
+# Intermediate datasets
+data/france_plastic_injection_companies.csv
+data/france_plastic_injection_companies_cleaned.csv
